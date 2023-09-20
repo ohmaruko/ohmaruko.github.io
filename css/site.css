@@ -46,3 +46,31 @@ li {
 .btn:hover{
     background-color: grey;
 }
+
+img {
+    margin-top: 100px;
+    margin-left: 100px;
+    border: 3px solid red;
+}
+img#gureza{
+    transform: rotate(20deg);
+}
+img#gureza1 {
+    transform: skewY(20deg);
+}
+img#gureza2 {
+    transform: scaleY(2.0);
+}
+img#gureza3 {
+    transform: rotate(20deg) skewY(20deg) scaleY(2.0);
+}
+
+img#gureza4 {
+    width: 100px;
+    margin-top: 100px;
+    margin-left: 100px;
+    transition: width 2s;
+}
+img#gureza4:hover {
+    width: 300px;
+}
